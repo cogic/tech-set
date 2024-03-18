@@ -1,39 +1,31 @@
-# vue-project
+# <img src="./src/assets/cogic.svg" height=150 alt="Keep a Changelog" /> Tech Set
 
-This template should help get you started developing with Vue 3 in Vite.
+Self-learning
 
-## Recommended IDE Setup
+![Static Badge](https://img.shields.io/badge/varsion-0.0.1-blue)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Type Support for `.vue` Imports in TS
+## Development
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Technologies
 
-## Customize configuration
+- Linters
+  - [Eslint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
+  - [Stylelint](https://stylelint.io/)
+  - [EditorConfig](https://editorconfig.org/)
+- [Vue.js](https://vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [SCSS(Sass)](https://sass-lang.com/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Build
 
-## Project Setup
-
-```sh
+```powershell
+# Install the dependencies
 yarn
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run dev
 yarn dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-yarn build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-yarn lint
-```
